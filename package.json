@@ -1,6 +1,6 @@
 {
   "name": "@re-taro/html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "So cool HTML",
   "exports": "./distribution/index.js",
   "types": "./distribution/index.d.ts",
