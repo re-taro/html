@@ -1,0 +1,41 @@
+{
+  "name": "@re-taro/html",
+  "version": "1.0.0",
+  "description": "So cool HTML",
+  "exports": "./distribution/index.js",
+  "types": "./distribution/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re-taro/html.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rintaro Itokawa",
+    "email": "me@re-taro.dev",
+    "url": "https://www.re-taro.dev/"
+  },
+  "keywords": [
+    "html",
+    "template",
+    "tagged template literal",
+    "template strings"
+  ],
+  "bugs": "https://github.com/re-taro/html/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "scripts": {
+    "prepare": "tsc",
+    "fmt": "prettier --write ./**/*.{ts,json}"
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "sanitize-xml-string": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/he": "^1.1.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
