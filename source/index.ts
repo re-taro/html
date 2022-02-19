@@ -1,8 +1,8 @@
 import he from 'he'
 import * as sanitizeXMLCharacters from 'sanitize-xml-string'
 
-export default html
 export type HTML = string
+
 export const html = (template: TemplateStringsArray, ...substitutions: (string | string[])[]): HTML => {
   const templatePartsSanitized = template.map(templatePart => sanitizeXMLCharacters.sanitize(templatePart))
   const substitutionsSanitized = [
@@ -23,3 +23,5 @@ export const html = (template: TemplateStringsArray, ...substitutions: (string |
   }
   return buffer.join('')
 }
+
+export default html
