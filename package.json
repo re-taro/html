@@ -26,6 +26,7 @@
   },
   "type": "module",
   "scripts": {
+    "test": "prettier --check \"source/**/*\" --end-of-line auto && npm run prepare",
     "prepare": "tsc",
     "fmt": "prettier --write ./**/*.{ts,json}"
   },
