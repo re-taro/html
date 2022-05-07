@@ -1,7 +1,7 @@
 {
   "name": "@re-taro/html",
-  "version": "1.0.2",
-  "description": "So cool HTML",
+  "version": "1.0.3",
+  "description": "HTML tagged template literals",
   "exports": "./distribution/index.js",
   "types": "./distribution/index.d.ts",
   "repository": {
@@ -31,8 +31,8 @@
     "fmt": "prettier --write ./**/*.{ts,json}"
   },
   "dependencies": {
-    "he": "^1.2.0",
-    "sanitize-xml-string": "^1.1.0"
+    "he": "1.2.0",
+    "sanitize-xml-string": "1.1.0"
   },
   "devDependencies": {
     "@types/he": "1.1.2",
